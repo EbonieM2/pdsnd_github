@@ -1,15 +1,17 @@
 ### Date created
-Include the date you created this project and README file.
+Created 2/15/2021 for project completed/passed January 30, 2021.
 
 ### Project Title
-Replace the Project Title
+EM-PDSND Project 2: Divvy Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project explores Divvy bikeshare data for New York City, Chicago and Washington, DC and allows the user to view descriptive statistics for their chosen filters.
 
 ### Files used
-Include the files used
+Files include:
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Ahmet Can Serfidan for helping me get the weekday name to populate.
