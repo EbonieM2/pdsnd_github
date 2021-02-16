@@ -14,4 +14,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Ahmet Can Serfidan for helping me get the weekday name to populate.
+Ahmet S. for helping me get the weekday name to populate.
