@@ -27,7 +27,7 @@ def get_filters():
     while city not in cities:
         city = input("Please choose Chicago, New York City or Washington: ").lower()
         if city.casefold() in cities:
-            print("Okay, I'll show you bikeshare data for " + city)
+            print("Here is bikeshare data for " + city)
 
     # TO DO: get user input for month (all, january, february, ... , june)
     months = ["all", "january", "february", "march", "april", "may", "june"]
@@ -66,7 +66,7 @@ def load_data(city, month, day):
 
     # extract month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month
-    df['day_of_week'] = df['Start Time'].dt.day_name
+    df['day_of_week'] = df['Start Time'].dt.weekday_name
     df['hour'] = df['Start Time'].dt.hour
 
 
